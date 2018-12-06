@@ -8,3 +8,7 @@
 - name: Add official gpg key
   apt_key:
     url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+
+- name: Add apt repository
+  apt_repository:
+    repo: deb https://apt.kubernetes.io/ kubernetes-xenial main
