@@ -1,0 +1,19 @@
+---
+
+galaxy_info:
+  role_name: kubectl
+  author: tottoto
+  description: An ansible rolr to install docker
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+  galaxy_tags:
+    - kubernetes
