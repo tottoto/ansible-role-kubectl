@@ -19,3 +19,7 @@ $ ansible-galaxy install tottoto.kubectl
   roles:
     - tottoto.kubectl
 ```
+
+## License
+
+See [LICENSE](./LICENSE).
