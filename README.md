@@ -9,3 +9,13 @@ This is an ansible role to install kubectl.
 ```sh
 $ ansible-galaxy install tottoto.kubectl
 ```
+
+## Example
+
+```yaml
+- name: Example playbook to use tottoto.kubectl
+  hosts: all
+  become: yes
+  roles:
+    - tottoto.kubectl
+```
