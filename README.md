@@ -20,6 +20,27 @@ $ ansible-galaxy install tottoto.kubectl
     - tottoto.kubectl
 ```
 
+## Tests
+
+### Requirements
+
+- Python (The version is declared in [Pipfile](./Pipfile))
+- [Pipenv](https://github.com/pypa/pipenv)
+
+### Procedure
+
+Create python virtualenv.
+
+```sh
+$ pipenv install -d
+```
+
+Run the test. The target distribution can be specified by environment variable `MOLECULE_DOCKER_IMAGE`. The default value is `ubuntu:bionic`.
+
+```sh
+$ MOLECULE_DOCKER_IMAGE=ubuntu:bionic pipenv run molecule test
+```
+
 ## License
 
 See [LICENSE](./LICENSE).
