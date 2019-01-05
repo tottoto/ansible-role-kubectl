@@ -24,6 +24,7 @@ $ ansible-galaxy install tottoto.kubectl
 
 ### Requirements
 
+- [Docker](https://www.docker.com/)
 - Python (The version is declared in [Pipfile](./Pipfile))
 - [Pipenv](https://github.com/pypa/pipenv)
 
