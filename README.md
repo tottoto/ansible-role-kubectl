@@ -20,7 +20,7 @@ $ ansible-galaxy install tottoto.kubectl
     - tottoto.kubectl
 ```
 
-## Tests
+## Development
 
 ### Requirements
 
@@ -28,7 +28,7 @@ $ ansible-galaxy install tottoto.kubectl
 - Python (The version is declared in [Pipfile](./Pipfile))
 - [Pipenv](https://github.com/pypa/pipenv)
 
-### Procedure
+### Tests
 
 Create python virtualenv.
 
